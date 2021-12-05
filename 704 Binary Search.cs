@@ -7,8 +7,7 @@ You must write an algorithm with O(log n) runtime complexity.
 
 public class Solution {
     public int Search(int[] nums, int target) {
-        int left = 0, right = nums.Length - 1; int center; int index = -1;
-        bool isFound = false;
+        int left = 0, right = nums.Length - 1; int center;
         
         while (left <= right) {
             center = left + (right - left) / 2;
