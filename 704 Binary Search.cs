@@ -5,6 +5,8 @@ If target exists, then return its index. Otherwise, return -1.
 You must write an algorithm with O(log n) runtime complexity.
 */
 
+// 60.83%
+
 public class Solution {
     public int Search(int[] nums, int target) {
         int left = 0, right = nums.Length - 1; int center;
