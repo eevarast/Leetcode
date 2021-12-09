@@ -2,6 +2,8 @@
 Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.
 */
  
+// 69.50 %
+
  public class Solution
     {
         public int[] SortedSquares(int[] nums)
