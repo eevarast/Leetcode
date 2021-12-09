@@ -4,6 +4,8 @@ Write a function that reverses a string. The input string is given as an array o
 You must do this by modifying the input array in-place with O(1) extra memory.
 */
 
+// 91.44%
+
 public class Solution {
     public void ReverseString(char[] s) {
         char temp;
