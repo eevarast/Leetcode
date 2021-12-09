@@ -16,6 +16,25 @@ If there are two middle nodes, return the second middle node.
  * }
  */
  
+/*
+ListNode current = head; int length = 1;
+            while (current.next != null)
+            {
+                current = current.next;
+                length++;
+            }
+            int i = 0;
+            current = head;
+            
+            while (i < length / 2)
+            {
+                current = current.next;
+                i++;
+            }
+
+            return current;
+ */
+
  // 80.83%
 public class Solution {
     public ListNode MiddleNode(ListNode head) {
