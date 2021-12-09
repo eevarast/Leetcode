@@ -2,6 +2,8 @@
 Given an array, rotate the array to the right by k steps, where k is non-negative.
 */
 
+// 49.75%
+
 public class Solution {
     public void Rotate(int[] nums, int k) {
         int[] res = new int[nums.Length];
