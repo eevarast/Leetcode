@@ -5,6 +5,8 @@ If not, return the index where it would be if it were inserted in order.
 You must write an algorithm with O(log n) runtime complexity.
 */
 
+// 83.79%
+
 public class Solution {
     public int SearchInsert(int[] nums, int target) {
         int left = 0, right = nums.Length - 1;
