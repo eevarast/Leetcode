@@ -8,6 +8,8 @@ Return the indices of the two numbers, index1 and index2, added by one as an int
 The tests are generated such that there is exactly one solution. You may not use the same element twice.
 */
 
+// 99.33%
+
 public class Solution {
     public int[] TwoSum(int[] numbers, int target) {
         int rightBorder = numbers.Length - 1, leftBorder = 0;
